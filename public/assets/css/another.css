@@ -1,0 +1,74 @@
+/*--------------------------------------------------------------
+# Vision & Mission Section
+--------------------------------------------------------------*/
+.vision-mission {
+  padding: 60px 0;
+  background-color: #ffffff; 
+}
+
+@media (max-width: 500px) {
+  .vision-mission .section-title{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}
+
+/* Description text for each mission point */
+.vision-mission .vision-description {
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--default-color);
+  font-family: var(--default-font);
+}
+
+/* Container for each mission point */
+.vision-mission .mission-item {
+  padding: 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* The circular icon holder */
+.vision-mission .mission-item .icon {
+  margin-right: 20px;
+  width: 70px;
+  height: 70px;
+  background: #ffb703;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* The icon itself (from Bootstrap Icons/Font Awesome) */
+.vision-mission .mission-item .icon i {
+  color: #fff; /* White icon color */
+  font-size: 32px;
+  line-height: 0;
+}
+
+/* Title for each mission point (e.g., "Adapt and Innovate") */
+.vision-mission .mission-item .title {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 15px;
+  color: var(--default-color); 
+  font-family: var(--default-font);
+}
+
+/* Description text for each mission point */
+.vision-mission .mission-item .description {
+  line-height: 1.5;
+  font-size: 15px;
+  font-style: italic;
+  color: color-mix(in srgb, var(--default-color), var(--contrast-color) 50%); 
+  margin-bottom: 0;
+  font-family: var(--default-font);
+}
+
+/* Optional: Adds a subtle background color when hovering over an item */
+.vision-mission .mission-item:hover {
+  background: #f8f9fa;
+}
